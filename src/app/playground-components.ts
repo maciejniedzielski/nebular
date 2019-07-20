@@ -1318,6 +1318,17 @@ export const PLAYGROUND_COMPONENTS: ComponentLink[] = [
     ],
   },
   {
+    path: 'timepicker',
+    children: [
+      {
+        path: 'timepicker-forms.component',
+        link: '/timepicker/timepicker-forms.component',
+        component: 'TimepickerFormsComponent',
+        name: 'Timepicker Forms',
+      },
+    ],
+  },
+  {
     path: 'context-menu',
     children: [
       {

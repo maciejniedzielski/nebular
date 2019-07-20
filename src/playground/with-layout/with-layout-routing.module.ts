@@ -149,6 +149,10 @@ const routes: Route[] = [
         path: 'icon',
         loadChildren: './icon/icon.module#IconModule',
       },
+      {
+        path: 'timepicker',
+        loadChildren: './timepicker/timepicker.module#TimepickerModule',
+      },
     ],
   },
 ];
